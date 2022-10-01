@@ -35,18 +35,18 @@ function Header() {
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent" >
                                     <ul class=" navb navbar-nav ml-auto mb-2 mb-lg-0" >
                                         <li className="nav-item pr-5">
-                                            <a aria-current="page" href="#">Home</a>
+                                            <a aria-current="page" href="#" style={{color:'blueviolet',cursor:"pointer"}}>Home</a>
                                         </li>
                                         <li className="nav-item pr-5">
-                                            <a  href="#">Services</a>
+                                            <a  href="#" style={{color:'blueviolet',cursor:"pointer"}}>Services</a>
                                         </li>
                                         <li className="nav-item pr-5">
-                                            <a  href="#">About</a>
+                                            <a  href="#" style={{color:'blueviolet',cursor:"pointer"}}>About</a>
                                         </li>
                                         <li className="nav-item pr-5">
-                                            <a href="#">Contact</a>
+                                            <a href="#" style={{color:'blueviolet',cursor:"pointer"}}>Contact</a>
                                         </li>
-                                        <li className="nav-item pr-3" style={{ display: 'flex', alignItems: 'center' }}>
+                                        <li className="nav-item pr-3" style={{ display: 'flex', alignItems: 'center' ,cursor:"pointer"}}>
                                             <img src={icon=="1" ? Sun:Moon} onClick={handleIcon} id="moon"/>
                                         </li>
                                     </ul>
