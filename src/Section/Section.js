@@ -15,7 +15,7 @@ function Section() {
                                 <h1>Build you website with <strong style={{color:'blueviolet'}}>Native Developers</strong></h1>
                                 <p className="my-3 font"><i>Native Developers is a group of full-stack developers, designers, and writers. We are professional in Android, iOS, and website development, including front-end and back-end applications, designing user interactions on web pages, creating servers and databases for functionality, ensuring cross-platform optimization for mobile phones, ensuring responsiveness of applications.</i></p>
                                 <div className="mt-3">
-                                    <button type="button" class="btn btn-primary">Get Started</button>
+                                    <button type="button" class="btn btn-primary" style={{background:'blueviolet'}}>Get Started</button>
                                 </div>
                             </div>
                             <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 section_right" >
