@@ -1,5 +1,6 @@
 a{
     text-decoration: none;
+    text-decoration: 2px 2px #121317
 }
 a:hover{
    color: blueviolet;
